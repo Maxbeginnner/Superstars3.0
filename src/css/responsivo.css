@@ -1,0 +1,76 @@
+@media (max-width: 380px) and (max-height: 852px) {
+
+
+    .cabecalho {
+        
+        width: 100%;
+        padding: 10px 0;
+        font-size: 14px;
+        height: 60px;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .superstars-slider {
+        padding: 0 15px;
+        gap: 15px;
+       width: 90%;
+        justify-content: center;
+        display: flex;
+        overflow-x: auto;
+
+    }
+
+    .imagem-pessoa {
+        width: 100%;
+        margin: 10px;
+        height: auto;
+        overflow: hidden;
+    }
+ 
+    .imagem-pessoa img{
+
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 5px;
+    }
+
+
+    .btn-seta {
+        padding: 12px 24px;
+        width: auto;
+        min-width: 50px;
+        height: auto;
+        padding: 10px;
+
+    }
+
+    
+}
+
+   .descricao {
+     
+        font-size: 1rem;
+        line-height: 1.5;
+        padding: 10px;
+        margin: 10px 0;
+        width: 100%; 
+        word-wrap: break-word;
+        text-align: center; 
+    }
+    
+
+   
+    .texto {
+        padding: 10px;
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    .lista-personagens {
+        max-height: 480px;
+        overflow-y: auto;
+
+    }
